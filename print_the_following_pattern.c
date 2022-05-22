@@ -7,14 +7,7 @@ int main()
     {
         for(j=1;j<=n;j++)
         {
-            if(j==1||i==j||i==n)
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
+           printf("%c ",(64+i));
         }
         printf("
 ");
